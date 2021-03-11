@@ -37,7 +37,7 @@ server.use(
   },
 );
 
-const port = process.env.PORT || 3331;
+const port = process.env.PORT || 3333;
 
 server.listen(port, () => {
   console.log(`Aplicação rodando na porta: ${port} ☁`);
