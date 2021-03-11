@@ -52,7 +52,7 @@ Para acessar o **Cliente Web**, click aqui: [EurekaLabs Cep Web](https://github/
 
 ## 🚀 tecnologias
 
-Technologies that I used to develop this api
+Tecnologias que foram utilizadas para desenvolver essa api.
 
 - [Node.js](https://nodejs.org/en/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -99,4 +99,4 @@ $ yarn run:server
 
 ---
 
-Made with 💜 &nbsp;by Carlos Reis 👋 &nbsp;[Qualquer duvida meu linkedin](https://www.linkedin.com/in/carlos-antonio-reis-b62893185/)
+Carlos Reis 👋 &nbsp;[Qualquer duvida meu linkedin](https://www.linkedin.com/in/carlos-antonio-reis-b62893185/)
