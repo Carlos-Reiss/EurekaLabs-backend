@@ -82,6 +82,8 @@ $ git clone https://github.com/Carlos-Reiss/EurekaLabs-backend.git
 $ cd EurekaLabs-backend
 ```
 
+| Obs: _Sei que não é uma boa prática mas, já dentro do projeto renomear arquivo .env.example para somente .env_
+
 **Etapas dentro da pasta do projeto**
 
 ```bash
