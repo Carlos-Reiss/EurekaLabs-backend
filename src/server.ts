@@ -7,6 +7,8 @@ import connectMongo from './connection';
 import MyError from './errors';
 import routes from './routes';
 
+dotenv.config();
+
 const server = express();
 
 server.use(cors());
@@ -16,9 +18,7 @@ server.use(express.urlencoded({ extended: true }));
 
 server.use(routes);
 
-dotenv.config();
-
-connectMongo(process.env.URL_MONGO);
+// connectMongo(process.env.URL_MONGO);
 
 // Tratar Erros
 server.use(
