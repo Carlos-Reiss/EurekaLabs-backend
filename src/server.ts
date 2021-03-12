@@ -1,6 +1,7 @@
 import express, { NextFunction, Request, Response } from 'express';
 import 'express-async-errors';
 import dotenv from 'dotenv';
+import cors from 'cors';
 
 import connectMongo from './connection';
 import MyError from './errors';
@@ -8,6 +9,7 @@ import routes from './routes';
 
 const server = express();
 
+server.use(cors());
 server.use(express.json());
 
 server.use(express.urlencoded({ extended: true }));
@@ -16,7 +18,7 @@ server.use(routes);
 
 dotenv.config();
 
-connectMongo(process.env.DATABASE_URL);
+connectMongo(process.env.URL_MONGO);
 
 // Tratar Erros
 server.use(
