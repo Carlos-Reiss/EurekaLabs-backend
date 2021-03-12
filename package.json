@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "tsc",
+    "start": "npm install",
     "run:build": "node dist/server.js",
     "run:server": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "test": "jest"
