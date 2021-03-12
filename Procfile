@@ -1,2 +1,2 @@
-start: npm run:build
-run: node dist/server.js
+start: npm start
+run: npm run:build
