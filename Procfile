@@ -1,2 +1,2 @@
-build: yarn run:build
+start: yarn run:build
 run: node dist/server.js
