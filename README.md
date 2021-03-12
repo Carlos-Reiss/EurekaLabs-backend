@@ -28,8 +28,8 @@
   <a href="https://www.linkedin.com/in/carlos-antonio-reis-b62893185/" >
     <img alt="linkedin" src="https://img.shields.io/badge/Carlos%20Reis-linkedin-blue" >
   </a>
-  <a href="carlosreis10.06@hotmail.com" >
-    <img alt="outlook" src="https://img.shields.io/badge/Carlos%20Reis-outlook-blue" >
+  <a href="mailto:carlosreis10.06@hotmail.com" >
+      <img alt="outlook" src="https://img.shields.io/badge/Carlos%20Reis-outlook-blue" >
   </a>
   <img alt="GitHub" src="https://img.shields.io/github/license/carlos-reiss/Eurekalabs-backend?style=flat-square">
 
