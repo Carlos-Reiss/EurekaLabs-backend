@@ -4,11 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn install",
+    "postinstall": "tsc",
+    "start": "node dist/server.js",
     "run:build": "tsc",
-    "run:server:build":"node dist/server.js",
     "run:server": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
-    "test": "jest"
+    "deploy":"git add . && git commit -m Heroku && git push ",
+    "engine":{"node" :"14.15.4"}
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
