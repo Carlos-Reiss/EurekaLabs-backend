@@ -4,8 +4,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "npm install",
-    "run:build": "node dist/server.js",
+    "start": "yarn install",
+    "run:build": "tsc",
+    "run:server:build":"node dist/server.js",
     "run:server": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "test": "jest"
   },
