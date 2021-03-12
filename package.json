@@ -9,7 +9,7 @@
     "run:build": "tsc",
     "run:server": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
     "deploy":"git add . && git commit -m Heroku && git push ",
-    "engine":{"node" :"14.15.4"}
+    "engines":{"node" :"14.15.4"}
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
