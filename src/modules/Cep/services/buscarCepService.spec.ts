@@ -10,8 +10,4 @@ describe('BuscarCepService', () => {
       cep: '52120580',
     });
   });
-
-  // it('não permitir cep no banco duplicado', () =>{
-  //   expect(1 + 2).toBe(3);
-  // });
 });
