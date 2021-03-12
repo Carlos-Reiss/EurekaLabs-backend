@@ -18,7 +18,9 @@ server.use(express.urlencoded({ extended: true }));
 
 server.use(routes);
 
-// connectMongo(process.env.URL_MONGO);
+console.log(process.env.URL_MONGO);
+
+connectMongo(process.env.URL_MONGO);
 
 // Tratar Erros
 server.use(
