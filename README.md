@@ -48,7 +48,7 @@
 
 - <p style="color: gray;">Elaboração de uma API que ajude o usuário a fazer uma consulta de um determinado CEP. ao informar um determinado CEP a aplicação o armazena em um base de dados como cache para futuras consultas.</p>
 
-Para acessar o **Cliente Web**, click aqui: [EurekaLabs Cep Web](https://github/carlos-reiss/)</br>
+Para acessar o **Cliente Web**, click aqui: [EurekaLabs Cep Web](https://eurekalabs-consulta-cep.herokuapp.com/)</br>
 
 ## 🚀 tecnologias
 
